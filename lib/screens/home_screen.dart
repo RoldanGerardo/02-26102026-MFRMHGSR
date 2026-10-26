@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
         onPressed: () {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(
-              content: Text('Mapa de platillos próximamente'),
+              content: Text('El mapa de los pueblos originarios se está abriendo...'),
               duration: Duration(seconds: 2),
             ),
           );

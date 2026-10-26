@@ -1,1 +1,0 @@
-Carpeta para los modelos de datos de la aplicación.
