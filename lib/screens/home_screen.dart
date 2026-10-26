@@ -15,14 +15,44 @@ class HomeScreen extends StatelessWidget {
         centerTitle: true,
       ),
 
-      body: const Center(
-        child: Text(
-          'Aquí aparecerá el catálogo de recetas.',
-          textAlign: TextAlign.center,
-          style: TextStyle(
-            fontSize: 18,
-          ),
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: const [
+            Text(
+              'Platillos Ancestrales de Quintana Roo',
+              style: TextStyle(
+                fontSize: 26,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 12),
+            Text(
+              'Descubre los sabores tradicionales de la región, preparados '
+              'con ingredientes locales y recetas heredadas por generaciones.',
+              style: TextStyle(fontSize: 16),
+            ),
+            SizedBox(height: 24),
+            Text(
+              'Aquí aparecerá el catálogo de recetas.',
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 18),
+            ),
+          ],
         ),
+      ),
+
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Mapa de platillos próximamente'),
+              duration: Duration(seconds: 2),
+            ),
+          );
+        },
+        child: const Icon(Icons.map),
       ),
     );
   }
