@@ -1,26 +1,26 @@
-
 import 'package:flutter/material.dart';
-import 'screens/splash_screen.dart';
+import 'screens/main_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const AppGastronomica());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class AppGastronomica extends StatelessWidget {
+  const AppGastronomica({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Platillos Ancestrales',
+      title: 'Gastronomía de Quintana Roo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF7B3F22),
-        ),
         useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.brown,
+        ),
+        scaffoldBackgroundColor: const Color(0xFFFFFBF5),
       ),
-      home: const SplashScreen(),
+      home: const MainScreen(),
     );
   }
 }
