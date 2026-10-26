@@ -18,7 +18,7 @@ class AppGastronomica extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.brown,
         ),
-        scaffoldBackgroundColor: const Color(0xFFFFFBF5),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 192, 139, 61),
       ),
       home: const MainScreen(),
     );
