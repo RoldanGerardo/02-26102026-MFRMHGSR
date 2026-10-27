@@ -56,7 +56,7 @@ class AcercaScreen extends StatelessWidget {
               SizedBox(height: 20),
 
               Text(
-                'Desarrollado por el equipo de estudiantes.',
+                'Desarrollado por el equipo de estudiantes: Valeria Ramírez, Hector Lugo, Gerardo Roldán, Adán Hernández, Ricardo Gónzales, Angela Ferraez y Santamaría Ozuna ',
                 textAlign: TextAlign.center,
               ),
             ],

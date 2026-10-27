@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import '../models/recipe_model.dart';
@@ -6,7 +5,14 @@ import '../services/recipe_service.dart';
 import '../widgets/recipiente_card.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  final List<Recipe> favoritos;
+  final ValueChanged<Recipe> onAlternarFavorito;
+
+  const HomeScreen({
+    super.key,
+    required this.favoritos,
+    required this.onAlternarFavorito,
+  });
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -50,13 +56,11 @@ class _HomeScreenState extends State<HomeScreen> {
               style: TextStyle(fontSize: 16),
             ),
             const SizedBox(height: 20),
-
             Expanded(
               child: FutureBuilder<List<Recipe>>(
                 future: _futureRecipes,
                 builder: (context, snapshot) {
-                  if (snapshot.connectionState ==
-                      ConnectionState.waiting) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
                     return const Center(
                       child: CircularProgressIndicator(),
                     );
@@ -103,8 +107,39 @@ class _HomeScreenState extends State<HomeScreen> {
                   return ListView.builder(
                     itemCount: recipes.length,
                     itemBuilder: (context, index) {
-                      return RecipeCard(
-                        recipe: recipes[index],
+                      final recipe = recipes[index];
+                      final esFavorito = widget.favoritos.any(
+                        (favorito) => favorito.id == recipe.id,
+                      );
+
+                      return Stack(
+                        children: [
+                          RecipeCard(recipe: recipe),
+                          Positioned(
+                            top: 4,
+                            right: 4,
+                            child: Material(
+                              color: Colors.white,
+                              shape: const CircleBorder(),
+                              child: IconButton(
+                                tooltip: esFavorito
+                                    ? 'Quitar de favoritos'
+                                    : 'Agregar a favoritos',
+                                onPressed: () {
+                                  widget.onAlternarFavorito(recipe);
+                                },
+                                icon: Icon(
+                                  esFavorito
+                                      ? Icons.favorite
+                                      : Icons.favorite_outline,
+                                  color: esFavorito
+                                      ? Colors.red
+                                      : Colors.grey,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
                       );
                     },
                   );

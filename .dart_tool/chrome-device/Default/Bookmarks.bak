@@ -1,0 +1,116 @@
+{
+   "checksum": "ba9d626b4e81a6184ce9f512ff5fd292",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13395451695356886",
+               "date_last_used": "0",
+               "guid": "76a864c8-b6b3-49ed-b7da-d1038fe76605",
+               "id": "13",
+               "name": "Dell Auction",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dellauction.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13395451695367578",
+               "date_last_used": "0",
+               "guid": "017dc295-e100-4097-a855-6c5bf83229d9",
+               "id": "14",
+               "name": "Dell",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www1.la.dell.com/content/default.aspx?c=mx&l=es&s=gen",
+               "visit_count": 0
+            }, {
+               "date_added": "13395451695372628",
+               "date_last_used": "0",
+               "guid": "96c7e494-32e6-402d-ad51-a7a3000470cb",
+               "id": "15",
+               "name": "Support.Dell.Com",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dell.com/support/home",
+               "visit_count": 0
+            } ],
+            "date_added": "13437541674976289",
+            "date_last_used": "0",
+            "date_modified": "13437541676491822",
+            "guid": "9a1661c9-1904-4d06-9ea9-48c85ce96faa",
+            "id": "12",
+            "name": "Dell",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13395644012946384",
+            "date_last_used": "13404409902445536",
+            "guid": "ebb5f97e-089c-45d3-9232-59118d3df4ed",
+            "id": "16",
+            "name": "Fireplace in Minecraft Live Wallpaper",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://motionbgs.com/fireplace-in-minecraft",
+            "visit_count": 2
+         }, {
+            "date_added": "13437541671091838",
+            "date_last_used": "0",
+            "guid": "248c5152-ef62-4b28-b8ef-e89204bb65a0",
+            "id": "7",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/dell.html",
+            "visit_count": 0
+         } ],
+         "date_added": "13437541670535282",
+         "date_last_used": "0",
+         "date_modified": "13437541676491121",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13437541670535282",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13437541670535282",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos móviles",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13437541670535282",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Áreas de trabajo",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCOf6KnuhAQAAKg4QABgBIAAoBTAAOABAABIAKhhCMmRYUk50V2FTb3lmWkJRdVdTZ0lRPT1IA6AGDBKMAQgDEocBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQxMGIzNDdmMC1kZDlhLTVmYjItYmQ3YS0wMTE3NTk2Nzg5MDEYACAAKAAwtKram7QxOI6u2pu0MUCOrtqbtDFKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1lAAAAAMI+AmAAEowBCAUShwEKHHdSQnJaTCs2UEE5YXZLZ2pOUDdKWERMY2Z2cz0SJDczZWY5YTBiLTUzMzEtNTU5Mi04NzFhLWRmYjJlZjE3MzYwOBgAIAAoADCLiamCozM4kYqpgqMzQJGKqYKjM0ocbm14NjVzUUR2eEk4VGdFZXYrQStudHRvU240PWUAAAAAwj4CYAASjAEIAhKHAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkZDlmNjZlMWEtMzgyZC01MWQwLTllOWItZTk2YzNjZThkZGM2GAAgACgAMK+q2pu0MTjdrdqbtDFA3a3am7QxShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9ZQAAAADCPgJgABKsAQgQEqcBChxsbitlWDdGTnB5Z1hxRDJOTG1DODhENlZHekk9EiRlYmI1Zjk3ZS0wODljLTQ1ZDMtOTIzMi01OTExOGQzZGY0ZWQYACAAKAAwsKiDo5wzOMnpj8/7MkDJ6Y/P+zJKHEZHMU5nOVlGVGdXdFhxSFJJaWU4MXkrdXI4WT1aHiIcVkJhdXIrMDlaUjQ3Q1BpclBibzBrRG00QTQwPWVetRKpwj4CYAUSjAEIARKHAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkNmNhNjg4YTEtZDdhMS01ZmNmLThiYTUtNzI4MjYzOWMwMjdlGAAgACgAMK6q2pu0MTjFrdqbtDFAxa3am7QxShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9ZQAAAADCPgJgABKtAQgPEqgBChx5T2VoaDBadVl2QlZaMEZqVm4rWFBnUkROTDQ9EiQ5NmM3ZTQ5NC0zMmU2LTQwMmQtYWQ1MS1hN2EzMDAwNDcwY2IYACAAKAAwqoLF8/oyOK6ExfP6MkCuhMXz+jJKHDlLK3hkMEVmeU1aOUg2aUpWNEZhNTA2Zndhaz1aHyId0nlJUmF5N3IzSkFmNWw4Qjg3Z0YwR1FyVTBMVT1lAAAAAMI+AmACEq0BCA4SqAEKHDNXSWV4TDZPd2k3YVNra1VBNWlNYnRhN0p6TT0SJDAxN2RjMjk1LWUxMDAtNDA5Ny1hODU1LTZjNWJmODMyMjlkORgAIAAoADCpgsXz+jI4kITF8/oyQJCExfP6MkocUkVZZkxhVXlNR2hJN1dVT2ZyQXBjVFQzV3BVPVofIh2kM3JvVzRBLzlRTkxISWFxL21KMWRPM2JVbWdJPWUAAAAAwj4CYAISrAEIDRKnAQocbUFHNDMxR05rbDhnbEhrOWIvYkkxbzNobGZNPRIkNzZhODY0YzgtYjZiMy00OWVkLWI3ZGEtZDEwMzhmZTc2NjA1GAAgACgAMKiCxfP6Mjjng8Xz+jJA54PF8/oyShx3aWdvemhCc0tWNjRFVWxhaWNLZXBUUEJSTHM9Wh4iHEh2UGJKS1RtSjNBQTZCUXZrdWlseTFNeTdqYz1lAAAAAMI+AmACEqwBCAwSpwEKHGVHQkFiRVBKRFdBWWxkVlZlWFFaZE9rY3RRND0SJDlhMTY2MWM5LTE5MDQtNGQwNi05ZWE5LTQ4Yzg1Y2U5NmZhYRgAIAAoADCngsXz+jI4yoPF8/oyQMqDxfP6MkocWHR2YVJlWkYzNUtOV1VZV2FLZlRxQm45RGc4PVoeIhxTZHBORU1SckNPS2VTYU9zZDg1TVdXdTNRNTg9ZQAAAADCPgJgADAAOAA=",
+   "version": 1
+}
